@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Empresa.MODEL
 {
-    internal class Pedidos
+    public class Pedidos
     {
+        public int IdPedido { get; set; }   
+        public int Idcliente { get; set; }
+        public DateTime Fecha { get; set; }
+        public decimal Total { get; set; }
+        public string Estado { get; set; }  
     }
 }
